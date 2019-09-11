@@ -1,0 +1,148 @@
+
+body{
+    margin: 0;
+    background-size:  cover;
+}
+.main-menu{
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    padding: 10px 0px 10px 0px;
+    background-color: #b19786;
+}
+.main-menu .menu-icon{
+    margin-left: 20px;
+    height: 40px;
+}
+.links{
+    display: inline-block;
+}
+.links ul li{
+    display: inline-block;
+}
+.links .menu-links{
+    text-decoration: none;
+    font-family: 'Trebuchet MS';
+    font-size: 20px;
+    margin-right: 30px;
+    color: #453d38;
+}
+/* Fim Menu */
+/* Hero */
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    background-image: url("images/hero-cover.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.hero .hero-text{
+    font-family: 'Trebuchet MS';
+    color: white;
+    text-align: center;
+}
+.hero .hero-text h1{
+    font-size: 80px;
+    margin-bottom: 0;
+}
+.hero .hero-text .subtitle{
+    display: block;
+    margin-bottom: 60px;
+    font-size: 20px;
+}
+.hero .hero-text .continue{
+    background-color: #453d38;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 16px 30px;
+    border-radius: 3px;
+}
+/* Fim do hero */
+/* Por que? */
+.why{
+    text-align: center;
+    background-color: #b19786;
+    padding: 40px 0px;
+    font-family: 'Trebuchet MS';
+}
+.why h1{
+    margin-top: 0;
+    color: white;
+}
+.why h2,.why h3{ 
+    color: #453d38;
+
+}
+.why .container{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
+.why .container .card{
+    background-color: #c5c0bd;
+    width: 250px;
+    padding: 40px;
+    text-align: center;
+    margin: 10px;
+}
+.why .container .why-icon{
+    width: 60px;
+    height: auto;
+}
+.why .container .card-title{
+    display: block;
+    color: #453d38;
+    font-weight: bold;
+    font-size: 20px;
+    height: auto;
+}
+/* Fim do por que? */
+/* Gatos */
+#gatos{
+    background-color: #ceb9ac;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 0px;
+}
+#gatos h1{
+    color: #453d38;
+    font-size: 30px;
+    margin-bottom: 35px;
+    font-family: 'Trebuchet MS';
+}
+.meow-wrapper{
+    padding: 5px;
+    background-color: #453d38;
+    margin-bottom: 40px;
+}
+#meow{
+    display: block;
+    width: auto;
+    height: 300px;
+}
+#change{
+    display: block;
+    background-color: #453d38;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 16px 30px;
+    border-radius: 3px;
+}
+
+.counter{
+    margin: 20px 0px 0px 20px;
+    align-self: flex-start;
+    color: #453d38;
+    font-family: 'Trebuchet MS';
+}
