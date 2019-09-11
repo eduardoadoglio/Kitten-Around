@@ -1,6 +1,61 @@
+
 body{
+    margin: 0;
     background-image: url("https://cdn3.vectorstock.com/i/1000x1000/67/07/cute-cat-and-floral-pattern-background-vector-21116707.jpg");
     background-size:  cover;
+}
+.main-menu{
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    padding: 10px 0px 10px 0px;
+    background-color: #b19786;
+}
+.main-menu .menu-icon{
+    height: 40px;
+}
+.links{
+    display: inline-block;
+}
+.links ul li{
+    display: inline-block;
+}
+.links .menu-links{
+    text-decoration: none;
+    font-family: 'Trebuchet MS';
+    font-size: 20px;
+    margin-right: 10px;
+    color: #453d38;
+}
+/* Fim Menu */
+/* Hero */
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("images/hero-cover.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.hero .hero-text{
+    font-family: 'trebuchet ms';
+    color: white;
+    text-align: center;
+}
+.hero .hero-text h1{
+    font-size: 80px;
+    margin-bottom: 0;
+}
+.hero .hero-text .subtitle{
+    display: block;
+    margin-bottom: 60px;
+    font-size: 20px;
 }
 #meow{
     width: auto;
