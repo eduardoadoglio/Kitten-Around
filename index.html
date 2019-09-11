@@ -9,13 +9,13 @@
 <body>
 <nav class="main-menu">
     <div class="icon">
-        <a href="index.html"><img src="images/cat-icon.png" class="menu-icon" alt=""></a>
+        <a href="#"><img src="images/cat-icon.png" class="menu-icon" alt=""></a>
     </div>
     <div class="links">
         <ul>
-            <li><a class="menu-links" href="index.html">Home</a></li>
-            <li><a class="menu-links" hfref="#">Link 2</a></li>
-            <li><a class="menu-links" href="#">Link 3</a></li>
+            <li><a class="menu-links" href="#">Home</a></li>
+            <li><a class="menu-links" href="#why">Por que?</a></li>
+            <li><a class="menu-links" href="#gatos">Gatos</a></li>
         </ul>
     </div>
 </nav>
@@ -26,33 +26,37 @@
         <button class="continue">+ VEJA MAIS</button>
     </div>
 </section>
-<section class="why">
+<section id="why" class="why">
     <h2>Mas, por quê?</h2>
     <h1>GATOS SÃO TOP</h1>
     <h3>fatos sobre gatos que comprovam minha tese:</h3>
     <div class="container">
         <div class="card">
-            <img class="why-icon" src="images/cat-icon.png">
-            <span class="card-title">Gatos são top</span>
+            <img class="why-icon" src="images/bone.png">
+            <span class="card-title">Gatos > humanos</span>
             <hr>
-            <p class="why-text">Um gato tem 230 ossos no seu corpo.<br><br>Um humano apenas tem 206.<br><br>gatos > humanos</p>
+            <p class="why-text">Um gato tem 230 ossos no seu corpo. Um humano apenas tem 206.</p>
         </div>
        <div class="card">
-            <img class="why-icon" src="images/cat-icon.png">
-            <span class="card-title">Gatos são top</span>
+            <img class="why-icon" src="images/speed.png">
+            <span class="card-title">Mais rápidos que o bolt.</span>
             <hr>
-            <p class="why-text">Um gato salta 5 vezes a sua altura num único salto<br> e consegue correr a 49 km por hora, <br>em curtas distâncias.</p>
+            <p class="why-text">Um gato salta 5 vezes a sua altura num único salto e consegue correr a 49 km por hora, em curtas distâncias.</p>
         </div>
         <div class="card">
-            <img class="why-icon" src="images/cat-icon.png">
-            <span class="card-title">Gatos são top</span>
+            <img class="why-icon" src="images/money.png">
+            <span class="card-title">Você não tem esse dinheiro todo.</span>
             <hr>
-            <p class="why-text">O gato mais rico do mundo chama-se Blackie,<br> à qual foram deixadas 15 000 000 libras pelo seu dono Ben Rea.<br><br>Você não tem esse dinheiro todo.</p>
+            <p class="why-text">O gato mais rico do mundo chama-se Blackie, à qual foram deixadas 15 000 000 libras pelo seu dono Ben Rea.</p>
         </div>  
         
     </div>
 </section>
-<img id="meow" src="#"><br>
-<button id="change" onclick="newCat()">Novo Gato</button>
+<section id="gatos">
+    <h1>Tendo em vista isso, aprecie quantos gatos quiser.</h1>
+    <div class="meow-wrapper"><img id="meow" src="#"></div>
+    <button id="change" onclick="newCat()">Novo Gato</button>
+    <span class="counter">Contador de gatos: <span id="num">1</span></span>
+</section>
 </body>
 </html>
