@@ -16,6 +16,7 @@ body{
     background-color: #b19786;
 }
 .main-menu .menu-icon{
+    margin-left: 20px;
     height: 40px;
 }
 .links{
@@ -44,7 +45,7 @@ body{
     background-attachment: fixed;
 }
 .hero .hero-text{
-    font-family: 'trebuchet ms';
+    font-family: 'Trebuchet MS';
     color: white;
     text-align: center;
 }
@@ -56,6 +57,44 @@ body{
     display: block;
     margin-bottom: 60px;
     font-size: 20px;
+}
+.hero .hero-text .continue{
+    background-color: #453d38;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 16px 30px;
+    border-radius: 3px;
+}
+/* Fim do hero */
+/* Por quê? */
+.why{
+    text-align: center;
+    background-color: #b19786;
+    padding: 40px 0px;
+    font-family: 'Trebuchet MS';
+}
+.why h1{
+    margin-top: 0;
+    color: white;
+}
+.why .container{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+.why .container .card{
+    background-color: #c5c0bd;
+    padding: 40px;
+    text-align: center;
+}
+.why .container .why-icon{
+    width: 60px;
+    height: auto;
+}
+.why .container .card-title{
+    display: block;
+    height: auto;
 }
 #meow{
     width: auto;
